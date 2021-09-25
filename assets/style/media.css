@@ -1,0 +1,1199 @@
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	/*menu*/
+	.logo{
+		font-size: 23px;
+	}
+	.menu-link{
+		text-align: center; 
+	}
+	.menu-link ul li a{
+		padding: 8px 0 !important;
+	}
+	.social{
+		justify-content: center;
+		padding-bottom: 20px; 
+	}
+	.social i{
+		margin: 10px 15px 12px 0;
+	}
+	/*menu*/
+
+	/*banner*/
+	.banner{
+		padding: 100px 0 120px;
+	}
+	.b-h1{
+		font-size: 46px;
+	    letter-spacing: 4px;
+	}
+	.d-line{
+		margin: 30px 0 40px;
+	}
+	.b-p {
+	    margin: 0 0 40px;
+	    font-size: 14px;
+	    letter-spacing: 1px;
+	}
+	.call-to-action {
+		padding: 10px 25px !important;
+	    font-size: 12px;
+	}
+
+	.b-image{
+	  top: 488px;
+	  left: 29.5%;
+	}
+	/*banner*/
+
+	/*cakes*/
+	.cakes{
+		padding: 60px 0;
+	}
+	.c-h1{
+		font-size: 40px;
+	}
+	.c-h3{
+		font-size: 12px;
+	}
+	.c-p{
+		margin: 25px 0;
+		font-size: 12px;
+	}
+	.c-h2{
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	.c-name{
+		padding: 5px 0;
+		font-size: 15px;
+	}
+	.c-quote-text{
+		font-size: 20px; 
+	}
+
+	.c-image{
+		padding: 40px 20px 0;  
+	}
+	/*cakes*/
+
+	/*pancakes*/
+	.pancakes{
+		padding: 60px 0;
+	}
+
+	.big{
+		padding: 80px 25px;
+	}
+	.p-bg{
+		padding: 40px 50px;
+	}
+	.price-h5{
+		font-size: 30px;
+	}
+
+	.p-ready{
+	    top: 1480px;
+	    right: 30px;
+	    width: 30%;
+		padding: 20px 0 10px;
+	}
+	.p-h4{
+		font-size: 14px;
+	}
+	.p-h2{
+		font-size: 50px;
+	}
+	.p-p{
+		font-size: 14px;
+	}
+	/*pancakes*/
+
+	/*breakfast*/
+	.breakfast{
+		padding: 60px 0;
+	}
+
+	.br-h1{
+		font-size: 38px;
+	}
+	.br-h3{
+		font-size: 15px;
+	}
+
+	.br-single{
+		margin: 30px 0 20px; 
+	}
+	.br-h2{
+		font-size: 20px;
+	}
+	.br-p{
+		font-size: 14px;
+	}
+
+	.menu-blog{
+		margin: 40px 0 0;
+	}
+	.m-blog-img{
+		margin-bottom: 22px;
+	}
+	.m-blog-h3{
+		margin-top: 30px;
+	}
+	.menu-blog-br{
+		padding: 0 0 30px 0; 
+	}
+
+	.br-h4{
+		font-size: 23px;
+	}
+	.m-blog-p{ 
+		line-height: 25px;
+	}
+	.btn-breakfast{
+		font-size: 12px;
+		border: 1px solid #a47d5e;
+	}
+	.btn-breakfast:hover{
+		background-color: #a47d5e;
+	}
+	.btn-breakfast:focus{
+		background-color: #a47d5e;
+	}
+	/*breakfast*/
+
+	/*jibarito sandwich*/
+	.j-s{
+		padding: 0 0 60px; 
+	}
+	.j-s-h1{
+		padding: 60px 0 0;
+	}
+
+	.j-s-single{
+		margin: 20px 0 0; 
+	}
+	.j-s-single-img{
+		margin-bottom: 10px; 
+	}
+	.j-s-p{
+		margin: 7px 0 0; 
+	}
+
+	.j-s-big-img{
+		margin: 35px 0 0; 
+	}
+	.j-s-ready{
+		top: 10px;
+	}
+	.j-s-box{
+		padding: 9px 0;
+	}
+	.j-s-h2{
+		font-size: 30px;
+	}
+	.j-s-img-p{
+		font-size: 10px;
+	}
+
+	.btn-j-s{
+		bottom: -20px;
+	    left: -13px;
+	    padding: 10px 20px !important;
+		font-size: 12px;
+	}
+	/*jibarito sandwich*/
+
+	/*contact*/
+	.contact{
+		padding: 40px 0 30px;
+	}
+	.cnt-h3{
+		font-size: 12px;
+	}
+	.cnt-p{
+		margin: 12px 0 20px;
+		font-size: 12px;
+	}
+	.cnt-social{
+		margin: 0;
+	}
+	.cnt-social a i{
+		margin: 0 4px;
+		font-size: 12px;
+	}
+
+	.e-form {
+	  	display: flex;
+      	justify-content: center;
+      	margin-top: 20px; 
+	}
+
+	.cnt-link{
+		display: flex;
+    	justify-content: center;
+    	margin-top: 25px;  
+	}
+	.cnt-link ul li a{
+		font-size: 12px;
+	}
+
+	.e-sub{
+		margin-top: 10px;
+		padding: 8px 25px !important;
+	    height: 35px;
+		font-size: 12px;
+		letter-spacing: 2px;
+	}
+	/*contact*/
+
+	/*footer*/
+	.f-p{ 
+		padding: 15px 0;
+		font-size: 12px;
+	}
+	/*footer*/
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*menu*/
+	.logo{
+		font-size: 23px;
+	}
+	.menu-link{
+		text-align: center; 
+	}
+	.menu-link ul li a{
+		padding: 8px 0 !important;
+	}
+	.social{
+		justify-content: center;
+		padding-bottom: 20px; 
+	}
+	.social i{
+		margin: 10px 15px 12px 0;
+	}
+	/*menu*/
+
+	/*banner*/
+	.banner{
+		padding: 115px 0 135px;
+	}
+	.b-h1{
+		font-size: 52px;
+	    letter-spacing: 3px;
+	}
+	.d-line{
+		margin: 30px 0 40px;
+	}
+	.b-p {
+	    margin: 0 0 40px;
+	    font-size: 15px;
+	    letter-spacing: 1px;
+	}
+	.call-to-action {
+		padding: 12px 30px !important;
+	    font-size: 13px;
+	}
+
+	.b-image{
+	  top: 481px;
+	  left: 39.5%;
+	}
+	/*banner*/
+
+	/*cakes*/
+	.cakes{
+		padding: 70px 0;
+	}
+	.c-h1{
+		font-size: 45px;
+	}
+	.c-h3{
+		font-size: 13px;
+	}
+	.c-p{
+		margin: 30px 0;
+		font-size: 13px;
+	}
+	.c-h2{
+		margin-bottom: 20px;
+		font-size: 22px;
+	}
+	.c-name{
+		padding: 5px 0;
+		font-size: 20px;
+	}
+	.c-quote-text{
+		font-size: 28px; 
+	}
+
+	.c-image{
+		padding: 50px 50px 0;  
+	}
+	/*cakes*/
+
+	/*pancakes*/
+	.pancakes{
+		padding: 70px 0;
+	}
+
+	.big{
+		padding: 80px 25px;
+	}
+	.p-bg{
+		padding: 40px 50px;
+	}
+	.price-h5{
+		font-size: 30px;
+	}
+
+	.p-ready{
+	    top: 1600px;
+	    right: 70px;
+		width: 25%;
+		padding: 20px 0 10px;
+	}
+	.p-h4{
+		font-size: 16px;
+	}
+	.p-h2{
+		font-size: 80px;
+	}
+	.p-p{
+		font-size: 16px;
+	}
+	/*pancakes*/
+
+	/*breakfast*/
+	.breakfast{
+		padding: 70px 0;
+	}
+
+	.br-h1{
+		font-size: 50px;
+	}
+	.br-h3{
+		font-size: 15px;
+	}
+
+	.br-single{
+		margin: 30px 0 20px; 
+	}
+	.br-h2{
+		font-size: 23px;
+	}
+	.br-p{
+		font-size: 15px;
+	}
+
+	.menu-blog{
+		margin: 40px 35px 0;
+	}
+	.m-blog-img{
+		margin-bottom: 22px;
+	}
+	.m-blog-h3{
+		margin-top: 35px;
+	}
+	.menu-blog-br{
+		padding: 0 0 40px 0; 
+	}
+
+	.br-h4{
+		font-size: 25px;
+	}
+	.btn-breakfast{
+		font-size: 13px;
+	}
+	/*breakfast*/
+
+	/*jibarito sandwich*/
+	.j-s{
+		padding: 0 0 70px; 
+	}
+	.j-s-h1{
+		padding: 70px 0 0;
+	}
+
+	.j-s-single{
+		margin: 30px 0 0; 
+	}
+	.j-s-single-img{
+		margin-bottom: 15px; 
+	}
+	.j-s-p{
+		margin: 13px 0 0; 
+	}
+
+	.j-s-big-img{
+		margin: 47px 0 0; 
+	}
+	.j-s-ready{
+		top: 24px;
+	}
+	.j-s-box{
+		padding: 16px 0;
+	}
+	.j-s-h2{
+		font-size: 40px;
+	}
+
+	.btn-j-s{
+		bottom: -20px;
+	    left: -15px;
+	    padding: 12px 25px !important;
+		font-size: 13px;
+	}
+	/*jibarito sandwich*/
+
+	/*contact*/
+	.contact{
+		padding: 50px 0 40px;
+	}
+	.cnt-h3{
+		font-size: 13px;
+	}
+	.cnt-p{
+		margin: 12px 0 20px;
+		font-size: 13px;
+	}
+	.cnt-social{
+		margin: 0;
+	}
+	.cnt-social a i{
+		margin: 0 4px;
+		font-size: 13px;
+	}
+
+	.e-form {
+	  	display: flex;
+      	justify-content: center;
+      	margin-top: 20px; 
+	}
+
+	.cnt-link{
+		display: flex;
+    	justify-content: center;
+    	margin-top: 25px;  
+	}
+	.cnt-link ul li a{
+		font-size: 13px;
+	}
+
+	.e-sub{
+		margin-top: 10px;
+		padding: 8px 25px !important;
+	    height: 35px;
+		font-size: 13px;
+		letter-spacing: 2px;
+	}
+	/*contact*/
+
+	/*footer*/
+	.f-p{ 
+		padding: 15px 0;
+		font-size: 13px;
+	}
+	/*footer*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*menu*/
+	.logo{
+		font-size: 23px;
+	}
+	.menu-link{
+		text-align: center; 
+	}
+	.menu-link ul li a{
+		padding: 8px 0 !important;
+	}
+	.social{
+		justify-content: center;
+		padding-bottom: 20px; 
+	}
+	.social i{
+		margin: 10px 15px 12px 0;
+	}
+	/*menu*/
+
+	/*banner*/
+	.banner{
+		padding: 125px 0 145px;
+	}
+	.b-h1{
+		font-size: 60px;
+	    letter-spacing: 5px;
+	}
+	.d-line{
+		margin: 30px 0 40px;
+	}
+	.b-p {
+	    margin: 0 0 40px;
+	    font-size: 15px;
+	    letter-spacing: 1px;
+	}
+	.call-to-action {
+		padding: 12px 30px !important;
+	    font-size: 13px;
+	}
+
+	.b-image{
+	  top: 513px;
+	  left: 41.5%;
+	}
+	/*banner*/
+
+	/*cakes*/
+	.cakes{
+		padding: 80px 0;
+	}
+	.c-h1{
+		font-size: 45px;
+	}
+	.c-h3{
+		font-size: 13px;
+	}
+	.c-p{
+		margin: 30px 0;
+		font-size: 13px;
+	}
+	.c-h2{
+		margin-bottom: 20px;
+		font-size: 22px;
+	}
+	.c-name{
+		padding: 5px 0;
+		font-size: 20px;
+	}
+	.c-quote-text{
+		font-size: 28px; 
+	}
+
+	.c-image{
+		padding: 50px 50px 0;  
+	}
+	/*cakes*/
+
+	/*pancakes*/
+	.pancakes{
+		padding: 80px 0;
+	}
+
+	.big{
+		padding: 110px 25px;
+	}
+	.p-bg{
+		padding: 30px 50px 0 25px;
+	}
+	.price-h5{
+		font-size: 30px;
+	}
+
+	.p-ready{
+		top: 1800px;
+		width: 13%;
+		padding: 20px 0 10px;
+	}
+	.p-h4{
+		font-size: 16px;
+	}
+	.p-h2{
+		font-size: 80px;
+	}
+	.p-p{
+		font-size: 16px;
+	}
+	/*pancakes*/
+
+	/*breakfast*/
+	.breakfast{
+		padding: 80px 0;
+	}
+
+	.br-h1{
+		font-size: 41px;
+	}
+	.br-h3{
+		font-size: 15px;
+	}
+
+	.br-single{
+		margin: 30px 0 20px; 
+	}
+	.br-h2{
+		font-size: 20px;
+	}
+	.br-p{
+		font-size: 14px;
+	}
+
+	.menu-blog{
+		margin: 0 35px 0 20px;
+	}
+	.m-blog-img{
+		margin-bottom: 22px;
+	}
+	.m-blog-h3{
+		margin-top: 25px;
+	}
+	.menu-blog-br{
+		padding: 0 0 30px 0; 
+	}
+
+	.br-h4{
+		font-size: 25px;
+	}
+	.btn-breakfast{
+		font-size: 13px;
+	}
+	/*breakfast*/
+
+	/*jibarito sandwich*/
+	.j-s{
+		padding: 0 0 80px; 
+	}
+	.j-s-h1{
+		padding: 80px 0 0;
+	}
+
+	.j-s-single{
+		margin: 40px 0 0; 
+	}
+	.j-s-single-img{
+		margin-bottom: 17px; 
+	}
+	.j-s-p{
+		margin: 15px 0 0; 
+	}
+
+	.j-s-big-img{
+		margin: 55px 0 0; 
+	}
+	.j-s-ready{
+		top: 40px;
+	}
+	.j-s-box{
+		padding: 25px 0;
+	}
+	.j-s-h2{
+		font-size: 50px;
+	}
+
+	.btn-j-s{
+		bottom: -20px;
+	    left: -15px;
+	    padding: 12px 25px !important;
+		font-size: 13px;
+	}
+	/*jibarito sandwich*/
+
+	/*contact*/
+	.contact{
+		padding: 60px 0 50px;
+	}
+	.cnt-h3{
+		font-size: 13px;
+	}
+	.cnt-p{
+		margin: 15px 0;
+		font-size: 13px;
+	}
+	.cnt-social{
+		margin: 4px 0 0;
+	}
+	.cnt-social a i{
+		margin: 0 4px;
+		font-size: 13px;
+	}
+
+	.e-form {
+	  	display: flex;
+      	justify-content: center;
+	}
+
+	.cnt-link{
+		display: flex;
+    	justify-content: end;
+	}
+	.cnt-link ul li a{
+		font-size: 12px;
+	}
+
+	.e-sub{
+	  padding: 8px 25px !important;
+	  height: 35px;
+	  font-size: 12px;
+	  letter-spacing: 2px;
+	}
+	/*contact*/
+
+	/*footer*/
+	.f-p{ 
+		padding: 15px 0;
+		font-size: 12px;
+	}
+	/*footer*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*menu*/
+	.logo{
+		font-size: 25px;
+	}
+	.menu-link ul li a{
+		padding: 5px 20px !important;
+		font-size: 13px;
+	}
+	.menu-gap{
+		padding-top: 2px;
+	}
+	.social i{
+		margin: 0 10px 12px;
+		font-size: 13px;
+	}
+	/*menu*/
+
+	/*banner*/
+	.banner{
+		padding: 145px 0 165px;
+	}
+	.b-h1{
+		font-size: 70px;
+	    letter-spacing: 6px;
+	}
+	.b-p {
+	    margin: 0 0 60px;
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	}
+	.call-to-action {
+	    font-size: 15px;
+	}
+
+	.b-image{
+	  top: 650px;
+	  left: 43.5%;
+	}
+	/*banner*/
+
+	/*cakes*/
+	.cakes{
+		padding: 90px 0;
+	}
+	.c-h1{
+		font-size: 40px;
+	}
+	.c-h3{
+		font-size: 12px;
+	}
+	.c-p{
+		margin: 20px 0;
+		font-size: 12px;
+	}
+	.c-h2{
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.c-name{
+		padding: 5px 0;
+		font-size: 20px;
+	}
+	.c-quote-text{
+		font-size: 20px; 
+	}
+	/*cakes*/
+
+	/*pancakes*/
+	.pancakes{
+		padding: 90px 0;
+	}
+
+	.big{
+		padding: 120px 25px;
+	}
+	.p-bg{
+		padding: 80px 90px 0 45px;
+	}
+	.price-h5{
+		font-size: 30px;
+	}
+
+	.p-ready{
+		top: 1348px;
+		width: 14%;
+		padding: 20px 0 10px;
+	}
+	.p-h2{
+		font-size: 85px;
+	}
+	/*pancakes*/
+
+	/*breakfast*/
+	.breakfast{
+		padding: 90px 0;
+	}
+
+	.br-h1{
+		font-size: 52px;
+	}
+	.br-h3{
+		font-size: 15px;
+	}
+
+	.br-single{
+		margin: 40px 0 20px; 
+	}
+	.br-h2{
+		font-size: 25px;
+	}
+	.br-p{
+		font-size: 15px;
+	}
+
+	.menu-blog{
+		margin: 0 55px 0 60px;
+	}
+	.m-blog-img{
+		margin-bottom: 38px;
+	}
+	.m-blog-h3{
+		margin-top: 35px;
+	}
+	.menu-blog-br{
+		padding: 0 0 40px 0; 
+	}
+
+	.br-h4{
+		font-size: 30px;
+	}
+	.btn-breakfast{
+		font-size: 15px;
+	}
+	/*breakfast*/
+
+	/*jibarito sandwich*/
+	.j-s{
+		padding: 0 0 50px; 
+	}
+	.j-s-h1{
+		padding: 70px 0 0;
+	}
+
+	.j-s-single{
+		margin: 0 0 20px; 
+	}
+	.j-s-single-img{
+		margin-bottom: 17px; 
+	}
+	.j-s-p{
+		margin: 15px 0 0; 
+	}
+
+	.j-s-big-img{
+		margin: 90px 0 0; 
+	}
+	.j-s-ready{
+		top: 40px;
+	}
+	.j-s-box{
+		padding: 30px 0;
+	}
+	.j-s-h2{
+		font-size: 55px;
+	}
+
+	.btn-j-s{
+		bottom: -20px;
+	    left: -17px;
+		font-size: 15px;
+	}
+	/*jibarito sandwich*/
+
+	/*contact*/
+	.contact{
+		padding: 70px 0 60px;
+	}
+	.cnt-h3{
+		font-size: 15px;
+	}
+	.cnt-p{
+		margin: 17px 0;
+		font-size: 13px;
+	}
+	.cnt-social{
+		margin: 5px 0 0;
+	}
+
+	.e-form {
+	  	display: flex;
+      	justify-content: center;
+	}
+
+	.cnt-link{
+		display: flex;
+    	justify-content: end;
+	}
+	.cnt-link ul li a{
+		font-size: 12px;
+	}
+
+	.e-sub{
+	  padding: 8px 25px !important;
+	  height: 40px;
+	  font-size: 13px;
+	}
+	/*contact*/
+
+	/*footer*/
+	.f-p{ 
+		padding: 15px 0;
+		font-size: 12px;
+	}
+	/*footer*/
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+	/*menu*/
+	.logo{
+		font-size: 28px;
+	}
+	.menu-link ul li a{
+		padding: 5px 30px !important;
+		font-size: 14px;
+	}
+	.social i{
+		margin: 0 12px 12px;
+		font-size: 14px;
+	}
+	/*menu*/
+
+	/*banner*/
+	.banner{
+		padding: 165px 0 185px;
+	}
+	.b-h1{
+		font-size: 78px;
+		letter-spacing: 8px;
+	}
+	.b-p{
+		font-size: 22px;
+	}
+	.call-to-action {
+	    font-size: 16px;
+	}
+
+	.b-image{
+	  top: 708px;
+	  left: 44.5%;
+	}
+	/*banner*/
+
+	/*cakes*/
+	.cakes{
+		padding: 90px 0;
+	}
+	.c-h1{
+		font-size: 45px;
+	}
+	.c-h3{
+		font-size: 13px;
+	}
+	.c-p{
+		margin: 25px 0;
+		font-size: 13px;
+	}
+	.c-h2{
+		margin-bottom: 30px;
+		font-size: 22px;
+	}
+	.c-name{
+		font-size: 22px;
+	}
+	.c-quote-text{
+		font-size: 22px; 
+	}
+	/*cakes*/
+
+	/*pancakes*/
+	.pancakes{
+		padding: 90px 0;
+	}
+
+	.big{
+		padding: 120px 25px;
+	}
+	.p-bg{
+		padding: 80px 90px 0 50px;
+	}
+	.price-h5{
+		font-size: 32px;
+	}
+
+	.p-ready{
+		top: 1483px;
+		width: 14%;
+		padding: 20px 0 10px;
+	}
+	.p-h2{
+		font-size: 85px;
+	}
+	/*pancakes*/
+
+	/*breakfast*/
+	.breakfast{
+		padding: 90px 0;
+	}
+
+	.br-h1{
+		font-size: 55px;
+	}
+	.br-h3{
+		font-size: 16px;
+	}
+
+	.br-single{
+		margin: 40px 0 25px; 
+	}
+	.br-h2{
+		font-size: 28px;
+	}
+	.br-p{
+		font-size: 15px;
+	}
+
+	.menu-blog{
+		margin: 0 65px 0 90px;
+	}
+	.m-blog-h3{
+		margin-top: 35px;
+	}
+	.menu-blog-br{
+		padding: 0 0 40px 0; 
+	}
+
+	.br-h4{
+		font-size: 35px;
+	}
+	.btn-breakfast{
+		font-size: 16px;
+	}
+	/*breakfast*/
+
+	/*jibarito sandwich*/
+	.j-s{
+		padding: 0 0 40px; 
+	}
+	.j-s-h1{
+		padding: 90px 0 0;
+	}
+
+	.j-s-single{
+		margin: 0 0 25px; 
+	}
+	.j-s-single-img{
+		margin-bottom: 17px; 
+	}
+	.j-s-p{
+		margin: 15px 0 0; 
+	}
+
+	.j-s-big-img{
+		margin: 75px 0 0; 
+	}
+	.j-s-ready{
+		top: 64px;
+	}
+	.j-s-box{
+		padding: 30px 0;
+	}
+	.j-s-h2{
+		font-size: 55px;
+	}
+
+	.btn-j-s{
+		bottom: -20px;
+	    left: -17px;
+		font-size: 16px;
+	}
+	/*jibarito sandwich*/
+
+	/*contact*/
+	.contact{
+		padding: 80px 0 70px;
+	}
+	.cnt-h3{
+		font-size: 16px;
+	}
+	.cnt-p{
+		margin: 17px 0;
+		font-size: 13px;
+	}
+	.cnt-social{
+		margin: 5px 0 0;
+	}
+
+	.cnt-link ul li a{
+		font-size: 13px;
+	}
+
+	.e-sub{
+	  padding: 8px 25px !important;
+	  height: 42px;
+	  font-size: 14px;
+	}
+	/*contact*/
+
+	/*footer*/
+	footer{
+		padding-bottom: 20px; 
+		background-color: #f3f1e9;
+	}
+	.f-p{ 
+		padding: 18px 0;
+		font-size: 13px;
+	}
+	/*footer*/
+	
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1999.98px) {
+
+	/*banner*/
+	.b-image{
+	  top: 758px;
+	  left: 45.5%;
+	}
+	/*banner*/
+
+}
+
+/*XXX-Large devices (larger desktops, 2000px and up)*/
+@media (min-width: 2000px) {
+
+	/*banner*/
+	.b-image{
+	  top: 758px;
+	  left: 45.5%;
+	}
+	/*banner*/
+	
+	.p-ready{
+		width: 9%;
+	}
+
+}

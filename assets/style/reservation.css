@@ -1,0 +1,389 @@
+/*fonts*/
+
+@font-face{
+  src:url(../fonts/alegreya/Alegreya-Regular.ttf);
+  font-family: Alegreya-Regular;
+}
+@font-face{
+  src:url(../fonts/alegreya/Alegreya-Bold.ttf);
+  font-family: Alegreya-Bold;
+}
+@font-face{
+  src:url(../fonts/scriptina/scriptina-regular.ttf);
+  font-family: scriptina-regular;
+}
+@font-face{
+  src:url(../fonts/playfair-display/PlayfairDisplay-Bold.ttf);
+  font-family: PlayfairDisplay-Bold;
+}
+@font-face{
+  src:url(../fonts/urbanist/Urbanist-Regular.ttf);
+  font-family: Urbanist-Regular;
+}
+
+/* -----------------------------------
+    Opening & Reservation Section
+--------------------------------------*/
+.res-opening-reservation-section {
+  padding: 100px 0;
+  background-color: #a57f60;
+  background-image: url(../image/reservation/bg.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+/*-- Opening & Reservation Wrapper --*/
+.res-opening-reservation-wrapper {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+/*-- Opening Wrapper --*/
+.res-opening-wrapper {
+  background-color: #f3f1e9;
+  outline: 2px dashed #bdbbb3;
+  outline-offset: -12px;
+  padding: 12px;
+  box-shadow: 0px 5px 20px 0px #6e6e6e52;
+}
+
+/*-- Opening Time List --*/
+.res-opening-time-list {
+  border-bottom: 2px dashed #bdbbb3;
+  overflow: hidden;
+  padding: 50px 60px;
+}
+
+/*-- List --*/
+.res-opening-time-list ul {
+  padding-left: 0;  
+}
+.res-opening-time-list ul li {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-family: PlayfairDisplay-Bold;
+  font-size: 16px;
+  color: #a57f60;
+  line-height: 24px;
+  list-style: none; 
+}
+.res-opening-time-list ul li::before {
+  bottom: 5px;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+.res-opening-time-list ul li + li {
+  margin-top: 8px;
+}
+.res-opening-time-list ul li span {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+.res-opening-time-list ul li .days {
+  float: left;
+  padding-right: 5px;
+}
+.res-opening-time-list ul li .times {
+  float: right;
+  padding-left: 5px;
+}
+
+/*-- Open Time Online --*/
+.res-opening-time-online {
+  padding: 50px 50px;
+}
+.res-opening-time-online h5 {
+  color: #a57f60;
+  font-family: PlayfairDisplay-Bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+.res-opening-time-online a {
+  font-family: Alegreya-Regular;
+  font-size: 25px;
+  color: #56534c;
+  text-decoration: underline !important;
+  display: inline-block;
+  margin: 5px 8px 0;
+  text-decoration: none; 
+  vertical-align: top;
+}
+.res-opening-time-online a:hover {
+  color: #a47d5e;
+}
+
+/*-- Reservation Wrapper --*/
+.res-reservation-wrapper {
+  padding: 0 0 0 110px;
+  text-align: center;
+}
+.res-reservation-wrapper h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 77px;
+  text-transform: capitalize;
+}
+
+/*-- Reservation Form --*/
+.reservation-form input {
+  margin-bottom: 18px;
+  padding: 9px 19px;
+  height: 44px;
+  background-color: transparent;
+  font-size: 13px;
+  color: #ffffff;
+  letter-spacing: 0.6px;
+  line-height: 24px;
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.reservation-form input::placeholder {
+  color: #e2e0e0;
+}
+.reservation-form input:focus {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  box-shadow: none;
+}
+
+.btn-reservation{ 
+  padding: 10px 25px !important;
+  background-color: #ffffff; 
+  font-family: Alegreya-Bold;
+  font-size: 18px;
+  color: #dfc691;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px dashed #dfc691; 
+  border-radius: 0px;
+  transition: .3s;
+}
+.btn-reservation:hover{
+  background-color: #dfc691;
+  color: #ffffff;
+  border: 1px dashed #ffffff; 
+}
+.btn-reservation:focus{
+  background-color: #dfc691;
+  color: #ffffff;
+  border: 1px dashed #ffffff;
+  box-shadow: none;
+}
+
+/*-----------------------*/
+/*Responsive screen*/
+/*-----------------------*/
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  .res-opening-reservation-section {
+    padding: 60px 0;
+  }
+  /*-- Opening Time List --*/
+  .res-opening-time-list {
+    padding: 20px 20px;
+  }
+  /*-- Open Time Online --*/
+  .res-opening-time-online {
+    padding: 20px 20px;
+  }
+  /*-- List --*/
+  .res-opening-time-list ul li {
+    font-size: 13px;
+  }
+  .res-opening-time-online h5 {
+    font-size: 15px;
+  }
+  .res-opening-time-online a {
+    font-size: 18px;
+  }
+  /*-- Reservation Wrapper --*/
+  .res-reservation-wrapper {
+    padding: 30px 0 0 0;
+  }
+  /*-- Reservation Form --*/
+  .reservation-form input {
+    margin-bottom: 13px;
+    height: 35px;
+    font-size: 11px;
+  }
+
+  .btn-reservation{
+    padding: 8px 25px !important;
+    font-size: 13px;
+  }
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .res-opening-reservation-section {
+    padding: 70px 0;
+  }
+  /*-- Opening Time List --*/
+  .res-opening-time-list {
+    padding: 30px 60px;
+  }
+  /*-- Open Time Online --*/
+  .res-opening-time-online {
+    padding: 30px 20px;
+  }
+  /*-- List --*/
+  .res-opening-time-list ul li {
+    font-size: 15px;
+  }
+  .res-opening-time-online h5 {
+    font-size: 18px;
+  }
+  .res-opening-time-online a {
+    font-size: 20px;
+  }
+  /*-- Reservation Wrapper --*/
+  .res-reservation-wrapper {
+    padding: 40px 0 0 0;
+  }
+  /*-- Reservation Form --*/
+  .reservation-form input {
+    margin-bottom: 13px;
+    height: 35px;
+    font-size: 11px;
+  }
+
+  .btn-reservation{
+    padding: 8px 25px !important;
+    font-size: 13px;
+  }
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .res-opening-reservation-section {
+    padding: 80px 0;
+  }
+  /*-- Opening Time List --*/
+  .res-opening-time-list {
+    padding: 30px 20px;
+  }
+  /*-- Open Time Online --*/
+  .res-opening-time-online {
+    padding: 30px 20px;
+  }
+  /*-- List --*/
+  .res-opening-time-list ul li {
+    font-size: 13px;
+  }
+  .res-opening-time-online h5 {
+    font-size: 15px;
+  }
+  .res-opening-time-online a {
+    font-size: 18px;
+  }
+  /*-- Reservation Wrapper --*/
+  .res-reservation-wrapper {
+    padding: 0 0 0 50px;
+  }
+  /*-- Reservation Form --*/
+  .reservation-form input {
+    margin-bottom: 13px;
+    height: 35px;
+    font-size: 11px;
+  }
+
+  .btn-reservation{
+    padding: 8px 25px !important;
+    font-size: 13px;
+  }
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .res-opening-reservation-section {
+    padding: 90px 0;
+  }
+  /*-- Opening Time List --*/
+  .res-opening-time-list {
+    padding: 40px 40px;
+  }
+  /*-- Open Time Online --*/
+  .res-opening-time-online {
+    padding: 40px 40px;
+  }
+  /*-- List --*/
+  .res-opening-time-list ul li {
+    font-size: 14px;
+  }
+  .res-opening-time-online h5 {
+    font-size: 16px;
+  }
+  .res-opening-time-online a {
+    font-size: 20px;
+  }
+  /*-- Reservation Wrapper --*/
+  .res-reservation-wrapper {
+    padding: 0 0 0 85px;
+  }
+  /*-- Reservation Form --*/
+  .reservation-form input {
+    margin-bottom: 15px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .btn-reservation{
+    padding: 8px 25px !important;
+    font-size: 15px;
+  }
+
+}
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+  .res-opening-reservation-section {
+    padding: 90px 0;
+  }
+  /*-- Opening Time List --*/
+  .res-opening-time-list {
+    padding: 50px 50px;
+  }
+  /*-- List --*/
+  .res-opening-time-list ul li {
+    font-size: 15px;
+  }
+  .res-opening-time-online h5 {
+    font-size: 18px;
+  }
+  .res-opening-time-online a {
+    font-size: 22px;
+  }
+  /*-- Reservation Wrapper --*/
+  .res-reservation-wrapper {
+    padding: 0 0 0 100px;
+  }
+  /*-- Reservation Form --*/
+  .reservation-form input {
+    height: 42px;
+    font-size: 13px;
+  }
+
+  .btn-reservation{
+    font-size: 16px;
+  }
+
+}
