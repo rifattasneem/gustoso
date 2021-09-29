@@ -1,4 +1,4 @@
-fonts*/
+/*fonts*/
 
 @font-face{
 	src:url(../fonts/alegreya/Alegreya-Regular.ttf);
@@ -32,7 +32,7 @@ thead, tbody, tfoot, tr, td, th {
 
 /*top*/
 .top{
-	background-image: url(../image/top-bg.png);
+	background-image: url(../image/top-bg.jpg);
 	background-size: cover;
 	background-color: #56534ccf;
   background-blend-mode: hard-light;
@@ -171,7 +171,7 @@ thead, tbody, tfoot, tr, td, th {
 /*cakes*/
 .cakes{
 	padding: 100px 0; 
-	background-image: url(../image/cakes/bg.png);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, .9), rgba(196, 185, 174, .3)), url(../image/cakes/bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -228,7 +228,7 @@ thead, tbody, tfoot, tr, td, th {
 /*pancakes*/
 .pancakes{
 	padding: 100px 0; 
-	background-image: url(../image/pancakes/bg.png);
+	background-image: url(../image/pancakes/bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -241,19 +241,19 @@ thead, tbody, tfoot, tr, td, th {
 	background-position: center center;
 }
 .big1{ 
-	background-image: url(../image/pancakes/pancake.png);
+	background-image: url(../image/pancakes/pancake.jpg);
 }
 .big2{ 
-	background-image: url(../image/pancakes/sandwich.png);
+	background-image: url(../image/pancakes/sandwich.jpg);
 }
 .big3{ 
-	background-image: url(../image/pancakes/berry.png);
+	background-image: url(../image/pancakes/berry.jpg);
 }
 .big4{ 
-	background-image: url(../image/pancakes/salad.png);
+	background-image: url(../image/pancakes/salad.jpg);
 }
 .big1 i, .big2 i, .big3 i, .big4 i{
-	margin-bottom: 10px; 
+	margin-bottom: 2px; 
 	font-size: 20px;
 	color: #ffffff; 
 }
@@ -324,7 +324,7 @@ thead, tbody, tfoot, tr, td, th {
 /*breakfast*/
 .breakfast{
 	padding: 100px 0;
-	background-image: url(../image/breakfast/bg.png);
+	background-image: url(../image/breakfast/bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
