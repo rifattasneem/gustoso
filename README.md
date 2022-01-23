@@ -1,3 +1,2 @@
-# gustoso
-
-https://rifattasneem.github.io/gustoso/
+# Gustoso
+> [Live Demo](https://rifattasneem.github.io/gustoso/)
