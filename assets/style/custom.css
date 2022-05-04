@@ -34,8 +34,8 @@ thead, tbody, tfoot, tr, td, th {
 .top{
 	background-image: url(../image/top-bg.jpg);
 	background-size: cover;
-	background-color: #56534ccf;
-  background-blend-mode: hard-light;
+	background-color: #1b070380;
+    background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-position: center center;
 	border-bottom: 13px solid #ffffff;   
